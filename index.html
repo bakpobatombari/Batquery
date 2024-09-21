@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BatLib.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Batquery/batquery.css">
+  
+</head>
+<body>
+   <div class="container-fluid">
+    <nav class="navbar bg-primary text-light">
+        <h2>BatLib</h2>
+        <ul class="nav-items d-flex">
+            <li>About</li>
+            <li>Contact</li>
+            <li>Courses</li>
+            <li>Lib</li>
+            <button class="btn text-light" id="openSearch">search</button>
+        </ul>
+        <div class="m-items">
+            <span class="openNav">&#9776;</span>
+        </div>
+    </nav>
+        <div class="sidenav">
+            <span class="closeBtn">&times;</span>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Lib</a></li>
+                <li><a href="">search</a></li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <span class="closeSearch">&times;</span>
+            <h3 class="text-center">Search</h3>
+            <input type="search" id="search-input" name="search" placeholder="Search">
+            <button type="button" class="button" value="search" onclick="search()">search</button>
+        </div>
+
+   <!-- End OF NAVS -->
+
+   <div class="slide-container">
+    <div class="slide">
+        <img src="./10.jpeg" alt="" class="col-12">
+    </div>
+    <div class="slide">
+        <img src="./10.jpeg" alt="" class="col-12">
+    </div>
+    <div class="slide">
+        <img src="./10.jpeg" alt="" class="col-12">
+    </div>
+    <div class="slide">
+        <img src="./10.jpeg" alt="" class="col-12">
+    </div>
+    <div class="slide">
+        <img src="./10.jpeg" alt="" class="col-12">
+    </div>
+    <div class="navigations text-light">
+        <button class="btn btn-primary text-light back"><</button>
+        <button class="btn btn-primary right text-light next" style="position: absolute;right:4px;">></button>
+    </div>
+   </div>
+    <h1 class="text-center">This Is A SlideShow Done With BatLib</h1>
+    <p class="text-center" style="margin-bottom: 1rem;">It Saves The Time Which is Meant to Be Spwnt While Coding JavaScript</p>
+   <pre class="text-center toturial">
+    To Install The Library Search For BatLib On Github
+
+    This is An Example
+
+      <pre id="try"></pre>
+
+      Here The Element Selecting is similar to That Of Jquery
+
+   </pre>
+   </div>
+    <script src="./code.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

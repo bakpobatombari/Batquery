@@ -1,0 +1,46 @@
+.navbar{
+    height: 50px;
+}
+.sidenav{background: #3a84ca;}
+.sidenav a{font-size: 25px;color: white;}
+.sidenav a:hover{transition: 1s;color: #000;}
+.sidenav a:active{transition: 0.1s;color: #3434;}
+.slide-container{height: 400px;width: 100%; position: relative;}
+.BatForm h1{
+    text-align: center;
+}
+.BatForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BatForm textarea{
+    margin-bottom: 1rem;
+}
+.BatForm button{
+    height: 30px;
+    border-radius: 5px;
+}
+.search-box{
+    position: fixed;
+    z-index: 10;
+    background: white;
+    height: 100px;
+    padding: 1rem;
+    right: 2rem;
+    display: none;
+    top:3rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px black;
+}
+.search-box input{height: 25px;}
+.search-box input:focus{
+    outline: #d1d1d1 3px solid;
+} 
+.search-box button{
+    border: none;
+    background: var(--primary);
+    border-radius: 5px;
+    height: 25px;
+}
